@@ -1,0 +1,71 @@
+
+.label {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .input-group {
+    margin-bottom: 2rem;
+    
+  }
+  .label-range {
+    margin-bottom: 2.5rem;
+  }
+ .Collapsible {
+  background-color: inherit; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+ }
+ .Collapsible__trigger{
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+ .Collapsible__contentOuter{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color:white;
+ }
+ .Collapsible__contentInner{
+  margin: 10px;
+  color:black;
+ }
+ .Collapsible__trigger.is-open svg {
+  transform: rotate(180deg);
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+ }
+ ul li a:hover{
+     cursor: pointer;
+ }
+
+ .siden{
+    background-color: #00b09b;
+    
+        text-transform: uppercase;
+      
+      
+
+ }
+
+ .sidewhite{
+
+    background-color: white;
+ }
+
+ .fs {
+    font-size: 16px;
+  }
+
+  .offcanvas-example {
+    max-width: 200px;
+  }
+  
+
+   
+   

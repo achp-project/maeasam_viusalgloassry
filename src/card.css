@@ -1,0 +1,146 @@
+    /* .carousel .slide img {
+    max-height: 500px;  
+    width:100%;
+    display:inline-block  !important;
+}
+    .con {  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: #333;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    background: #333(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  } 
+  .active-tabs  {
+    background: #333;
+    border-bottom: 1px solid transparent;
+    color: white;
+  }
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  } 
+  button {
+    border: none;   
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+   */
+   
+
+   html {
+    font-size: 1rem;
+ }
+ h1 {
+   font-size: 1.2rem;
+ }
+ h2 {
+   font-size: 1.1rem;
+ }
+ 
+ @media (min-width: 768px) {
+   html {
+     font-size: 1.1rem;
+   }
+   h1 {
+       font-size: 1.3rem;
+   }
+   h2 {
+       font-size: 1.2rem;
+   }
+ }
+ 
+ @media (min-width: 991px) {
+     html {
+     font-size: 1.2rem;
+   }
+   h1 {
+       font-size: 1.5rem;
+   }
+   h2 {
+       font-size: 1.4rem;
+   }
+ }
+ 
+ @media (min-width: 1200px) {
+   html {
+     font-size: 1.2rem;
+   }
+   h1 {
+       font-size: 1.7rem;
+   }
+   h2 {
+       font-size: 1.6rem;
+   }
+ }
+ .img {
+  max-height: 250px;  
+  
+  display:inline-block  !important;
+}
+
+.border-info {
+  border-left: 5px solid  #00b09b !important;
+}
+
+/* .styled-table {
+  
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ 
+} */
+.uppercase { text-transform: capitalize; }
